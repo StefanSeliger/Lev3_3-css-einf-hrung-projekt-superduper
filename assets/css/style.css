@@ -21,12 +21,12 @@ h2, h3 {
 }
 
 a {
-    color: #ccc;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover {
-    color: white; 
+    color: #ccc; 
 }
 
 /* =======================
@@ -34,5 +34,54 @@ a:hover {
 ======================= */
 
 header {
-
+    background: #333;
+    width: 100vw; 
+    color: #fff;
 }
+
+header h1 {
+    width: 100px; 
+    text-transform: lowercase;
+    padding: 1% 0 0 3%;
+    font-weight: lighter;  
+}
+
+header div {
+    text-align: center;
+    height: 35vh; 
+    width: 35vh;
+    margin: 15vh auto; 
+    padding: 2vh 2vh 0 2vh; 
+    background: linear-gradient(to top right, #8507e1,#3dc8d5);
+}
+
+header div:hover {
+    background: linear-gradient(to top right,#3dc8d5, #8507e1);
+}
+
+header div h2 {
+    font-size: 8vh;
+    padding: 10% auto;
+}
+
+header div p {
+    font-size: 2vh; 
+    margin-top: 25%;
+}
+
+header nav {
+    text-align: right;
+    padding: 0 3% 1% 0;
+}
+
+header nav ul li:first-child {
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    line-height: 180%;
+}
+
+/* =======================
+    Main Styles
+======================= */
