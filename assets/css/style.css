@@ -6,10 +6,33 @@
 
 /* Font Families
 font-family: 'Gilda Display', serif;
-font-family: 'Maven Pro', sans-serif;
+
 */ 
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Gilda Display', serif;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white; 
+}
+
+/* =======================
+    Header Styles
+======================= */
+
+header {
+
 }
