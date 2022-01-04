@@ -1,4 +1,4 @@
-# Lev3_3-css-einf-hrung-projekt-superduper
+# Werbeagentur_SuperDuper_Bootcamp
 
 Supercode Bootcamp Project
 Aufgabenstellung: Eine Digital-Agentur möchte eine Website. 
